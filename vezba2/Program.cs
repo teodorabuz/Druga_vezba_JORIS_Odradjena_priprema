@@ -16,7 +16,9 @@ namespace vezba2
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddSingleton<IHotelRepository, InMemoryHotelRepository>();
+            //builder.Services.AddSingleton<IHotelRepository, InMemoryHotelRepository>();
+            //builder.Services.AddTransient<IHotelRepository, SqlHotelRepository>();
+            builder.Services.AddSingleton<ISobaRepository, InMemorySobaRepository>();
 
             var app = builder.Build();
 

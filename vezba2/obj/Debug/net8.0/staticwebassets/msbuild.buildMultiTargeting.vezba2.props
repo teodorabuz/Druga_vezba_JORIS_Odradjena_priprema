@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\vezba2.props" />
+</Project>
