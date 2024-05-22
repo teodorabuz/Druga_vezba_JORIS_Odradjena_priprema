@@ -17,8 +17,9 @@ namespace vezba2
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             //builder.Services.AddSingleton<IHotelRepository, InMemoryHotelRepository>();
-            //builder.Services.AddTransient<IHotelRepository, SqlHotelRepository>();
-            builder.Services.AddSingleton<ISobaRepository, InMemorySobaRepository>();
+            builder.Services.AddTransient<IHotelRepository, SqlHotelRepository>();
+            //builder.Services.AddSingleton<ISobaRepository, InMemorySobaRepository>();
+            builder.Services.AddTransient<ISobaRepository, SqlSobaRepository>();
 
             var app = builder.Build();
 

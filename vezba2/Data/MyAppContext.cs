@@ -6,6 +6,7 @@ namespace vezba2.Data
     public class MyAppContext : DbContext
     {
         public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Soba> Sobe {  get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //*base.OnConfiguring(optionsBuilder);

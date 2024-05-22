@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vezba2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b4ddd579be9a27d2ee944b7cb57ab668ce2d3fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4c07f6b5f0d338521bd0bdecddf97330153a431")]
 [assembly: System.Reflection.AssemblyProductAttribute("vezba2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vezba2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
